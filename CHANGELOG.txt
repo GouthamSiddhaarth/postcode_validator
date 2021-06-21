@@ -1,5 +1,9 @@
 Chamge Log
 ===========
+0.0.3
+
+    - Updated the folder structure
+    - Added pyproject.toml file
 
 0.0.2
 

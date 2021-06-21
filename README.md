@@ -5,17 +5,17 @@ The initial releas includes validation for only UK Postcodes
 
 ## Install
 
-postcode_validator is available on PyPI:
+postcode-validator is available on PyPI:
 
 ```bash
-$ pip install postcode_validator
-```c
+$ pip install postcode-validator
+```
 
 
 ## Usage
 
 ```python
-from postcode_validator.uk.uk_postcode_validator import UKPostcode
+from postcode-validator.uk.uk_postcode_validator import UKPostcode
 
 postcode = UKPostcode('w1a0ax')
 

@@ -2,7 +2,6 @@ import os
 from setuptools import setup, find_packages
 
 classifiers = [
-    "Development Status :: 2 - Pre-Alpha",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3.8",
 ]
@@ -14,7 +13,7 @@ with open(readme, "r") as fh:
     readme_data = fh.read()
 
 setup(
-  name='postcode_validator',
+  name='postcode-validator',
   version=open('version.txt').read(),
   description='Postcode Validator Library',
   long_description=readme_data,
